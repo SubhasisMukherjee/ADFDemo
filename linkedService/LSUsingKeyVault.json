@@ -1,0 +1,17 @@
+{
+	"name": "LSUsingKeyVault",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "LSForKV",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "storagedemosubha-connectionstring"
+			}
+		}
+	}
+}
