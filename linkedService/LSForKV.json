@@ -1,0 +1,10 @@
+{
+	"name": "LSForKV",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://KVADFDemoSubha.vault.azure.net/"
+		}
+	}
+}
